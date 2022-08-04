@@ -1,8 +1,13 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  color: brown;
+.background-image {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
 }
 
-p {
-  font-family: "Roboto Serif", serif;
+.navbar-collapse {
+  flex-direction: column-reverse;
+}
+
+.personal-info {
+  position: relative;
+  margin-top: -100px;
 }
