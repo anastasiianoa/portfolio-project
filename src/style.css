@@ -1,13 +1,64 @@
-.background-image {
-  background-image: url("../images/background3.jpg");
-  background-size: cover;
+:root {
+  --primary-color: #3c352f;
+  --heading-font-family: "Playfair Display", serif;
 }
 
-.navbar-collapse {
-  flex-direction: column-reverse;
+img {
+  width: 100px;
+}
+
+body {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 80px;
+  font-family: var(--heading-font-family);
+}
+
+h3 {
+  margin-top: 100px;
+  color: var(--primary-color);
+}
+
+.navbar-color {
+  color: var(--primary-color);
 }
 
 .personal-info {
+  margin-top: 180px;
+  color: var(--primary-color);
+}
+
+.code-quote {
+  text-align: left !important;
   position: relative;
-  margin-top: -100px;
+  margin-left: 500px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 120px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .code-quote {
+    margin-left: 35px;
+    font-size: 15px;
+  }
+
+  .personal-info {
+    margin-top: 100px;
+  }
 }
