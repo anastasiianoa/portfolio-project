@@ -85,7 +85,7 @@ h3 {
   .primary-navigation {
     background: hsla(0, 0%, 100%, 0.1);
     backdrop-filter: blur(8px);
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
   }
 
   .code-quote {
