@@ -10,10 +10,11 @@ body {
 
 .hero {
   color: var(--primary-color);
-  padding-top: 300px;
-  padding-bottom: 400px;
   background-image: url("/images/bg.png");
   background-size: cover;
+  background-position: center;
+  padding-top: 300px;
+  padding-bottom: 400px;
 }
 
 .hero h1 {
