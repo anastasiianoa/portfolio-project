@@ -18,24 +18,42 @@ nav .container a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 300px;
+  padding-top: 360px;
   padding-bottom: 400px;
 }
 
 .hero h1 {
-  font-size: 72px;
+  font-size: 90px;
+  letter-spacing: 10px;
+  line-height: 2;
 }
 
 .hero h2 {
-  font-size: 20px;
+  font-size: 27px;
+  letter-spacing: 3px;
+  /* margin-bottom: 27px; */
 }
 
 .hero h1,
 h2 {
   font-weight: 600;
-  letter-spacing: 5px;
+  margin-bottom: 0;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 22px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.hero a {
+  background-color: #ffffff;
+  color: #272142;
+  font-family: var(--heading-font-family);
+  font-size: 14;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 20px 60px;
+  border-radius: 50px;
+  /* margin-top: 80px; */
 }
