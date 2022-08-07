@@ -8,9 +8,14 @@ body {
   font-family: var(--main-font-family);
 }
 
+nav .container a {
+  color: white;
+}
+
 .hero {
   color: var(--primary-color);
   background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 300px;
