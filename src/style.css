@@ -115,8 +115,6 @@ h2 {
 
 .footer {
   display: flex;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
   padding: 20px 0;
   background-color: #282323;
   text-align: right;
@@ -221,6 +219,16 @@ h2 {
 .camera-credits {
   font-size: 18px;
   font-weight: bold;
+}
+
+.work {
+  margin: 150px 0;
+}
+
+.work h1 {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 
 @media (max-width: 576px) {
