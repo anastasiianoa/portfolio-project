@@ -115,19 +115,34 @@ h2 {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  padding: 20px 0;
   background-color: #282323;
-  text-align: center;
+  text-align: right;
 }
 
+.footer-col {
+  width: 30%;
+}
+
+.social-icons {
+  padding-right: 80px;
+}
 .social-icons ul li {
   list-style: none;
 }
 
-.social-icons ul li a,
-.ownership {
+.social-icons ul li a {
   color: var(--primary-color);
+}
+
+.brand-name {
+  text-align: center;
+}
+
+.ownership {
+  padding: 0;
 }
 
 .about-me {
