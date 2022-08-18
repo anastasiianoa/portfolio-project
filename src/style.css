@@ -135,8 +135,8 @@ h2 {
   width: 30%;
 }
 
-.brand-name,
-.social-icons {
+footer .brand-name,
+footer .social-icons {
   padding-top: 1em;
   padding-left: 1.8em;
 }
@@ -145,7 +145,7 @@ h2 {
   text-align: center;
 }
 
-.social-icons {
+footer .social-icons {
   padding-right: 6.25rem;
 }
 
@@ -204,14 +204,18 @@ h2 {
   padding-left: 0px;
 }
 
+.about-content .social-icons {
+  margin: 3.5rem 0 3rem 0;
+}
+
 .contact-btn a {
   background-color: #ffffff;
   color: #272142;
   font-family: var(--heading-font-family);
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 1px;
-  padding: 10px 45px;
+  padding: 0.8em 3.5em;
   border-radius: 50px;
   line-height: 2;
   margin-top: 40px;
@@ -247,7 +251,6 @@ h2 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 10px;
-  margin-bottom: 45px;
 }
 
 .heading h2 {
@@ -278,7 +281,12 @@ h2 {
   }
 
   .hero h1 {
-    font-size: 38px;
+    font-size: 30px;
+    padding-inline: 1.5rem;
+  }
+
+  .hero h2 {
+    padding-top: 2rem;
   }
 
   .hero p {
@@ -314,10 +322,6 @@ h2 {
     right: 0px;
   }
 
-  footer .social-icons {
-    padding: 15px 25px 0px 0px;
-  }
-
   .about-me {
     margin-top: 4rem;
   }
@@ -330,6 +334,7 @@ h2 {
 
   .about-content {
     text-align: center;
+    padding-inline: 0;
     padding-top: 30px;
     padding-bottom: 10px;
   }
@@ -340,10 +345,12 @@ h2 {
 
   .about-content h1 {
     line-height: 1;
+    font-size: 60px;
   }
 
   .about-content p {
     margin-right: 0;
+    padding-inline: 2rem;
   }
 
   .carema-block {
@@ -359,9 +366,29 @@ h2 {
     padding-top: 5px;
   }
 
+  .heading {
+    margin-bottom: 0;
+  }
+
+  .heading h1 {
+    font-size: 65px;
+  }
+
+  .footer ul {
+    margin-bottom: 0.5rem;
+  }
+
   .footer-col {
     width: 100%;
     text-align: center;
+    padding: 0;
+  }
+
+  .footer .social-icons {
+    padding: 15px 25px 0px 0px;
+  }
+
+  .footer .brand-name {
     padding: 0;
   }
 }
