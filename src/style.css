@@ -34,6 +34,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.active-page {
+  color: var(--secondary-color) !important;
+}
+
 .bg-custom-dark {
   background-color: #202020;
 }
@@ -89,7 +93,7 @@ h2 {
 }
 
 #navbarNav ul li a:hover {
-  color: #d2e9b4;
+  color: var(--secondary-color);
 }
 
 .image-gallery {
